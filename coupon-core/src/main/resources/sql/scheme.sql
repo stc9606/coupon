@@ -20,7 +20,7 @@ create table `coupon`.`coupon_issues`
 (
     `id`                        bigint(20) not null auto_increment,
     `coupon_id`                 bigint(20) not null comment '쿠폰 ID',
-    `use_id`                    bigint(20) not null comment '유저 ID',
+    `user_id`                   bigint(20) not null comment '유저 ID',
     `title`                     varchar(255) not null comment '쿠폰명',
     `date_issued`               datetime(6) not null comment '발급 일시',
     `date_used`                 datetime(6) null comment '사용 일시',
