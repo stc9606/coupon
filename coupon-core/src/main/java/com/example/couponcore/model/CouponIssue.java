@@ -22,7 +22,7 @@ public class CouponIssue extends BaseTimeEntity {
     private Long couponId;
 
     @Column(nullable = false)
-    private String userId;
+    private Long userId;
 
     @Column(nullable = false)
     @CreatedDate
